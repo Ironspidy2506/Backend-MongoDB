@@ -1,0 +1,40 @@
+Authentication & Authorization
+
+Authentication - User ko profile dene se pehle check karna hota hai ki user hai kon
+
+Authorization - To check whether the user is authorized or allowed to perform some tasks that can only be performed by admin
+
+For example:
+
+1) An admin may have permission to delete a user.
+2) A regular user may only have permission to view their own profile but not modify others.
+
+Server har baar bhul jaata hai aap kon ho, ab kyunki server bhul jataa hai aap kon ho to wo har baar har el kaam ke liye puchega ki aap kon ho
+
+Sabse pehle hume kuch chiz sikhni hai
+
+1) Cookies kaise set karte hai and read karte hai
+
+// Authorization Header vs Cookie
+// Authorization header ko aapko alag se chipkana padta hai 
+// Cookie ko nai chipkani padti
+
+Technique to use Cookie
+// Ek random badi si string banaunga aur ye badi si string tumhare browser pe bhej dunga and wo save ho jaayegi as a cookie and now ab jo bhi main bhejunga yaha se uske sath wo cookie bhi jaayegi
+// Uss badi si string ke sath main check kar sakta hu ki aap valid user ho ya nai
+
+2) Bcrypt kaise use karte hai for password encryption and decryption
+
+// GenSalt - Sabse pehle salt banate ho, salt ek random string hoti hai and uske sath password ko hashcode mein convert karke mix kar diya jaata hai salt ke sath
+const bcrypt = require('bcrypt');
+
+password => Encrypt ho jaayega like ("qbttxpse")
+            But it uses different algorithms
+
+3) JWT kya hai and JWT mein data kaise store kare aur bahar nikale
+
+JWT 3 chizo se banta hai
+1) Header
+2) Payload
+2) Verify Signature
+

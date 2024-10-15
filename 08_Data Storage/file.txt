@@ -1,0 +1,22 @@
+Data Storage:
+    Aisa kuch jaha par hum saaare users ki info store kar sakte hai
+
+Types of Database
+    SQL - Data ko ek roop mein rakhna (Tables)
+    NoSQL - Data ko objects ke roop mein rakha jaayega
+
+What and Why
+    To store all the possible data together
+
+Terminologies - Collections, Documents, Schemas, Keys, Models
+
+    Backend - 2 chize hoti hai
+              1) Application Server - Req handle, Routes handle (Sab kuch except the data)
+              2) Database Server - It is all about the data
+
+    Database -> Collections -> Documents
+    
+    Code                Database
+    mongoose.connect -> Database Create
+    model create     -> Collections Create
+    CREATE           -> Document Create

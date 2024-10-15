@@ -1,0 +1,4 @@
+[.........., ........., ..........]
+// Referencing - Products ki id rakhi jaati hai
+// Embedding - Product ka pura data rakh dete hai
+

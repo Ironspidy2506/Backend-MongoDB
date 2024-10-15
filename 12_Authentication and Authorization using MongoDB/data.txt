@@ -1,0 +1,9 @@
+Create User Account
+    Mongoose
+    Schema
+    Model
+    UserCreate -> Password -> Hash
+    JWT Token -> Cookie
+
+
+Login -> Token -> Decrypt -> Email
